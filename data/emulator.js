@@ -2821,7 +2821,7 @@ class EmulatorJS {
                 'value2': ''
             },
             23: {
-                'value': 'snift',
+                'value': 'shift',
                 'value2': ''
             },
             24: {
