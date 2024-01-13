@@ -2599,7 +2599,7 @@ class EmulatorJS {
                 this.controls[player][num] = {};
             }
             this.controls[player][num].value = 0;
-            this.controls[player][num].value2 = "";
+            this.controls[player][num].value2 = 1;
             this.controlPopup.parentElement.parentElement.setAttribute("hidden", "");
             this.checkGamepadInputs();
             this.saveSettings();
