@@ -2619,60 +2619,60 @@ class EmulatorJS {
     defaultControllers = {
         0: {
             0: {
-                'value': 'x',
-                'value2': 'BUTTON_2'
+                'value': 'z',
+                'value2': ''
             },
             1: {
-                'value': 's',
-                'value2': 'BUTTON_4'
+                'value': 'x',
+                'value2': ''
             },
             2: {
-                'value': 'v',
-                'value2': 'SELECT'
+                'value': '',
+                'value2': ''
             },
             3: {
-                'value': 'enter',
-                'value2': 'START'
+                'value': 'grave accent',
+                'value2': ''
             },
             4: {
-                'value': 'up arrow',
-                'value2': 'DPAD_UP'
+                'value': '1',
+                'value2': ''
             },
             5: {
-                'value': 'down arrow',
-                'value2': 'DPAD_DOWN'
+                'value': '2',
+                'value2': ''
             },
             6: {
-                'value': 'left arrow',
-                'value2': 'DPAD_LEFT'
+                'value': '3',
+                'value2': ''
             },
             7: {
-                'value': 'right arrow',
-                'value2': 'DPAD_RIGHT'
+                'value': '4',
+                'value2': ''
             },
             8: {
-                'value': 'z',
-                'value2': 'BUTTON_1'
+                    'value': '',
+                'value2': ''
             },
             9: {
-                'value': 'a',
-                'value2': 'BUTTON_3'
+                'value': '',
+                'value2': ''
             },
             10: {
                 'value': 'q',
-                'value2': 'LEFT_TOP_SHOULDER'
+                'value2': ''
             },
             11: {
                 'value': 'e',
-                'value2': 'RIGHT_TOP_SHOULDER'
+                'value2': ''
             },
             12: {
-                'value': 'tab',
-                'value2': 'LEFT_BOTTOM_SHOULDER'
+                'value': 'c',
+                'value2': ''
             },
             13: {
-                'value': 'r',
-                'value2': 'RIGHT_BOTTOM_SHOULDER'
+                'value': '',
+                'value2': ''
             },
             14: {
                 'value': '',
@@ -2683,51 +2683,160 @@ class EmulatorJS {
                 'value2': 'RIGHT_STICK',
             },
             16: {
-                'value': 'h',
-                'value2': 'LEFT_STICK_X:+1'
+                'value': 'd',
+                'value2': ''
             },
             17: {
-                'value': 'f',
-                'value2': 'LEFT_STICK_X:-1'
+                'value': 'a',
+                'value2': ''
             },
             18: {
-                'value': 'g',
-                'value2': 'LEFT_STICK_Y:+1'
+                'value': 's',
+                'value2': ''
             },
             19: {
-                'value': 't',
-                'value2': 'LEFT_STICK_Y:-1'
+                'value': 'w',
+                'value2': ''
             },
             20: {
-                'value': 'l',
-                'value2': 'RIGHT_STICK_X:+1'
+                'value': 'r',
+                'value2': ''
             },
             21: {
-                'value': 'j',
-                'value2': 'RIGHT_STICK_X:-1'
+                'value': 'f',
+                'value2': ''
             },
             22: {
-                'value': 'k',
-                'value2': 'RIGHT_STICK_Y:+1'
+                'value': 'v',
+                'value2': ''
             },
             23: {
-                'value': 'i',
-                'value2': 'RIGHT_STICK_Y:-1'
+                'value': 'space',
+                'value2': ''
             },
             24: {
-                'value': '1'
+                'value': ''
             },
             25: {
-                'value': '2'
+                'value': ''
             },
             26: {
-                'value': '3'
+                'value': ''
             },
             27: {},
             28: {},
             29: {},
         },
-        1: {},
+        1: {
+            1: {
+                'value': 'single quote',
+                'value2': ''
+            },
+            1: {
+                'value': 'open bracket',
+                'value2': ''
+            },
+            2: {
+                'value': '',
+                'value2': ''
+            },
+            3: {
+                'value': 'backspace',
+                'value2': ''
+            },
+            4: {
+                'value': 'equal sign',
+                'value2': ''
+            },
+            5: {
+                'value': 'dash',
+                'value2': ''
+            },
+            6: {
+                'value': '0',
+                'value2': ''
+            },
+            7: {
+                'value': '9',
+                'value2': ''
+            },
+            8: {
+                    'value': '',
+                'value2': ''
+            },
+            9: {
+                'value': '',
+                'value2': ''
+            },
+            10: {
+                'value': 'l',
+                'value2': ''
+            },
+            11: {
+                'value': 'close bracket',
+                'value2': ''
+            },
+            12: {
+                'value': 'back slash',
+                'value2': ''
+            },
+            13: {
+                'value': '',
+                'value2': ''
+            },
+            14: {
+                'value': '',
+                'value2': 'LEFT_STICK',
+            },
+            15: {
+                'value': '',
+                'value2': 'RIGHT_STICK',
+            },
+            16: {
+                'value': 'right arrow',
+                'value2': ''
+            },
+            17: {
+                'value': 'left arrow',
+                'value2': ''
+            },
+            18: {
+                'value': 'down arrow',
+                'value2': ''
+            },
+            19: {
+                'value': 'up arrow',
+                'value2': ''
+            },
+            20: {
+                'value': 'forward slash',
+                'value2': ''
+            },
+            21: {
+                'value': 'period',
+                'value2': ''
+            },
+            22: {
+                'value': 'enter',
+                'value2': ''
+            },
+            23: {
+                'value': 'snift',
+                'value2': ''
+            },
+            24: {
+                'value': ''
+            },
+            25: {
+                'value': ''
+            },
+            26: {
+                'value': ''
+            },
+            27: {},
+            28: {},
+            29: {},
+        },
         2: {},
         3: {}
     }
